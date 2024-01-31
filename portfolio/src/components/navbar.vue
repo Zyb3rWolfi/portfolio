@@ -1,8 +1,7 @@
 <template>
-
 <nav class="flex">
   <div class="mx-auto px-2 sm:px-6 lg:px-8">
-    <div class="relative flex h-16 items-center justify-between">
+    <div class="relative flex h- items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <!-- Mobile menu button-->
         <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
@@ -31,10 +30,10 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="#" class=" text-white rounded-md px-3 py-2 font-medium" aria-current="page">// home</a>
-            <a href="#" class="text-gray-300  hover:text-white rounded-md px-3 py-2 font-medium">// skills</a>
-            <a href="#" class="text-gray-300  hover:text-white rounded-md px-3 py-2 font-medium">// portfolio</a>
-            <a href="#" class="text-gray-300  hover:text-white rounded-md px-3 py-2 font-medium">// experience</a>
+            <a href="#" class=" text-white rounded-md px-3 py-2 font-sm" aria-current="page"><p class=" text-xs text-right">00</p>// home</a>
+            <a href="#" class="text-gray-300  hover:text-white rounded-md px-3 py-2 font-sm"><p class=" text-xs text-right">01</p>// skills</a>
+            <a href="#" class="text-gray-300  hover:text-white rounded-md px-3 py-2 font-sm"><p class=" text-xs text-right">02</p>// portfolio</a>
+            <a href="#" class="text-gray-300  hover:text-white rounded-md px-3 py-2 font-sm"><p class=" text-xs text-right">03</p>// experience</a>
           </div>
         </div>
       </div>

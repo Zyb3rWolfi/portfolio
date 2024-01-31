@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -17,12 +18,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#right-bar {
+  font-size: 12px;
+  font-weight: 200;
+}
 
+#title {
+  font-weight: 600;
+}
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Inconsolata', monospace;
   background-color: #0F0E16;
 }
 
